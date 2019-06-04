@@ -1,5 +1,15 @@
+require "pry"
+def find_contestant(data, name)
+  data.each do |season, contestants|
+    binding.pry
+  end
+end
+  
+
 def get_first_name_of_season_winner(data, season)
-  # code here
+  data.each do |season, contestants|
+    
+  end
 end
 
 def get_contestant_name(data, occupation)
@@ -17,3 +27,6 @@ end
 def get_average_age_for_season(data, season)
   # code here
 end
+
+
+
